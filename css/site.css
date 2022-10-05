@@ -1,0 +1,16 @@
+h1 {
+  color: white;
+}
+
+
+body {
+  background-image: stars.jpeg;
+  font-family: Verdana;
+  background: linear-gradient(180deg, rgba(54, 96, 170, 1) 0%, rgba(130, 205, 228, 1) 100%);
+  padding: 25px;
+  font-size: 120%;
+}
+
+#callout {
+  background: linear-gradient (90deg, rgba )
+}

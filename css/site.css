@@ -22,7 +22,7 @@ body {
 }
 
 h2{
-  margin-top: 0px;
+  margin-top: -0.5px;
   color: brown;
 }
 
@@ -38,4 +38,22 @@ a {
   display: inline-block;
   list-style-position: outside;
   text-align: center;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: blue;
+}
+
+#tiger {
+  width: 300px;
+  float: right;
 }

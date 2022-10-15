@@ -1,0 +1,33 @@
+
+body {
+  background-image:
+  height: 1000px;
+}
+
+#contents{
+  border-style: double;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px;
+  margin-top: -10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-image: url(https://images.pexels.com/photos/2706654/pexels-photo-2706654.jpeg?auto=compress&cs=tinysrgb&w=800);
+  text-shadow: 2px 2px 8px silver;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+  overflow: hidden;
+  font-family: sans-serif;
+  padding: 20px;
+  color: black;
+  text-overflow: clip;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 10px;
+}

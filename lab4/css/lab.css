@@ -12,10 +12,11 @@ body {
   margin-top: -10px;
   margin-left: 50px;
   margin-right: 50px;
-  background-image: url(https://images.pexels.com/photos/2706654/pexels-photo-2706654.jpeg?auto=compress&cs=tinysrgb&w=800);
+  background-image: url(https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg);
   text-shadow: 2px 2px 8px silver;
   color: white;
   font-family: sans-serif;
+  border-width: thick;
 }
 
 h1{
@@ -28,6 +29,10 @@ h1{
   margin-bottom: 10px;
 }
 
+h2{
+  margin-bottom: 10px;
+}
+
 p{
-  font-size: 10px;
+  font-size: 15px;
 }

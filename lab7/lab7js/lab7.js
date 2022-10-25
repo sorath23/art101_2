@@ -1,5 +1,5 @@
 /**
-* Author: Anika, Ellery
+* Author: Ellery
 * Created 24 October
 * License: Public Domain
 */
@@ -11,7 +11,9 @@ function sortUserName() {
   var nameArray = UserName.split('');
   console.log("nameArray =", nameArray)
   //sort the array
-  var nameArraySort = nameArray.sort();
+  var nameArraySort = nameArray.sort(function(a, b){
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+  });
   console.log("nameArraySort =", nameArraySort);
   //join array back to a string
   var nameSorted = nameArraySort.join('');

@@ -1,0 +1,23 @@
+
+body{
+  background: linear-gradient(180deg, rgba(170, 220, 119, 1) 0%, rgba(255, 152, 152, 1) 100%);
+}
+
+#content{
+  padding: 20px;
+  margin: 20px;
+  background: white;
+
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: grey;
+}
+
+h1{
+  text-align: center;
+}

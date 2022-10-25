@@ -1,9 +1,8 @@
 <pre><code>
-//Open document in Google Docs
-  //Fill document with designated information
-  //Access Google Doc toolbar
-    //Click File
-    //Click Print
+//Navigate to docs.google.com
+  //Write designated information into document
+  //Select "File" bar at top of page
+    //Select "Print" option
       //Select printer destination
       //Verify printer settings
     //Click Print

@@ -1,0 +1,9 @@
+#output {
+  text-align: justify;
+  font-style: oblique italic;
+  font-family: monospace;
+  margin: 20px;
+  padding: 20px;
+  color: blue;
+  background: linear-gradient(160deg, rgba(21, 169, 23, 1) 0%, rgba(243, 244, 235, 1) 100%);
+}

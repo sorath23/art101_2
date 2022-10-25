@@ -1,0 +1,40 @@
+.output{
+  background-color: grey;
+  padding: 20px;
+  text-align: justify;
+  border-width: thick;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: right;
+}
+
+body{
+  background: linear-gradient(180deg, rgba(189, 184, 176, 1) 0%, rgba(69, 75, 79, 1) 100%);
+}
+
+#content{
+  padding: 20px;
+  margin: 20px;
+  background: white;
+
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: grey;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  float: right;
+  text-align: right;
+  width: 300px;
+}

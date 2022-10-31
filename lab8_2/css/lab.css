@@ -1,0 +1,50 @@
+
+
+#header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 30px;
+  font-family: cursive;
+}
+
+#cursivefont {
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}
+
+#outputdiv {
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}
+
+#translation {
+  font-weight: bold;
+  font-family: serif;
+  color: green;
+  font-style: normal;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+button {
+  color: green;
+  background-color: tan;
+}
+
+body {
+  background-color: tan;
+  border-style: dotted;
+  padding: 280px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee635e0a-8ad2-4b97-b015-081828bf48db/ddo9g6-9e221d5e-819a-44f4-a602-fa716e9c58a9.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VlNjM1ZTBhLThhZDItNGI5Ny1iMDE1LTA4MTgyOGJmNDhkYlwvZGRvOWc2LTllMjIxZDVlLTgxOWEtNDRmNC1hNjAyLWZhNzE2ZTljNThhOS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.Ock8J6vzL0WjR3TPqiYvtETsL0NM-30VyJAEAXGupSY);
+}

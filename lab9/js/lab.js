@@ -1,10 +1,8 @@
 /**
-* Author: Anika, Ellery
-* Created 25.11.2022
-*
+* Author: Ellery
+* Created: 30 October
+* License: Public Domain
 */
-
-
 
 
 
@@ -22,7 +20,7 @@ new2El.innerHTML = "Decipher";
 outputEl.appendChild(new2El);
 new2El.onclick =
 function p(){
-  document.getElementById("outputdiv").innerHTML = "₮|-|ℹ$   ℿℿ∑$$@ⓖ∑   ℭ@ℿ   0ℿ⅂ℷ   lo∑   $∑∑ℿ   loℷ   †|-|∑   ℭ|-|0$∑ℿ   0ℿ∑$!!";
+  document.getElementById("outputdiv").innerHTML = "Tнё gѳгдёп яцпё$ ѳf ѵагнаган аяё дё$тїпёд тѳ fагг, гїкё $тая$ аѫїд$т а ѫїдпїgнт cагѫ. Шнїгё тнё щѳягд яё$т$, ѳпё щїгг бяёак тнё $їгёпcё тѳ яёцпїтё тнёѫ агг.";
   var new3El = document.createElement('p')
   new3El.setAttribute('id', 'translation')
   setTimeout(() => {

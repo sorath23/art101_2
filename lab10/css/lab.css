@@ -1,0 +1,26 @@
+body {
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-left: 550px;
+  margin: 20px;
+  background-color:
+}
+
+#compliments {
+  font-style: italic;
+  color: blue;
+  font-family: cursive;
+}
+
+#output {
+  font-style: italic;
+  color: blue;
+  font-family: cursive;
+}
+
+
+body {
+  font-family: Verdana;
+  background: linear-gradient(160deg, rgba(201, 232, 241, 1) 0%, rgba(243, 244, 235, 1) 100%);
+  display: block;
+}

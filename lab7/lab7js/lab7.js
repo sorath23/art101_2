@@ -12,7 +12,7 @@ function sortUserName() {
   console.log("nameArray =", nameArray)
   //sort the array
   var nameArraySort = nameArray.sort(function(a, b){
-    return a.toLowerCase().localeCompare(b.toLowerCase());
+    return a.toUpperCase().localeCompare(b.toLowerCase());
   });
   console.log("nameArraySort =", nameArraySort);
   //join array back to a string

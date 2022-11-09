@@ -1,0 +1,60 @@
+.pink {
+    background-color: pink;
+}
+
+#sentence {
+  color: pink;
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+#submit {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  margin: 150px;
+  text-align: center;
+  padding: 40px;
+}
+
+.btn-styled {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+.container {
+  background-color: green;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: pink;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-shadow:1px 1px 10px pink, 1px 1px 10px #ccc;
+}
+
+#none {
+  color: black;
+}
+
+#contents {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}

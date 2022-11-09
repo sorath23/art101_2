@@ -1,0 +1,17 @@
+.hmu {
+  background-color: white;
+  border: solid 1px black;
+}
+
+.hmu.special {
+  background-color: pink;
+  color: white;
+}
+
+
+.btn-styled {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}

@@ -17,8 +17,8 @@ function getFactorObj() {
     for (var factor=0; factor<maxFactors; factor++) {
         numId = "num" + factor;
         textId = "text" + factor;
-        numValue = document.getElementById(numId).value;
-        textValue = document.getElementById(textId).value;
+        numValue = $("numId").value;
+        textValue = $("numId").value;
         console.log(factor + ") num:", numValue, "text:", textValue)
         // if either value is blank, don't use it
         if (numValue && textValue) {
@@ -34,21 +34,13 @@ function outputToPage(str) {
     outputEl.appendChild(newEl);
 }
 
-// given a number and an object that looks like this:
-//      {3: "Fizz", 4: "Buzz", 5: "Boom", 7: "Bang"}
-// loops over the numbers and outputs the number and the matching text
-// for factors
+
 function fizzBuzzBoom(maxNums, factorObj) {
     // iterate over all of out numbers
-    for (var num=0; num<maxNums; num++) {
-        debugger;
-        // reset output string
+    for (var num=0; num<200; num++) {
         var outputStr = "";
-        // iterate over the factors we got from the html
         for (var factor in factorObj) {
-            // check to see if this num is a multiple of factor
             if (num % factor == 0) {
-                // if yes, than add the text to output string
                 outputStr += factorObj[factor];
             }
         }

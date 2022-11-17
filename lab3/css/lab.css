@@ -1,10 +1,41 @@
 p{
-  color: red;
+  color: black;
+}
+
+#contents{
+  background-color: #FFF8E2;
+  padding: 50px;
+  border-radius: 15px;
+  margin: 30px;
+}
+img {
+  width: 500px;
+  border-color: black;
+  border-width: inherit;
 }
 
 
-img {
-  width: 1000px;
-  border-color: black;
-  border-width: thick;
+
+body {
+  background-color: #F6BD13;
+}
+
+h1, h2, h3{
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-family: sans-serif;
+  transition: background-color 0.5s;
+  padding: 5px;
+}
+
+h1:hover{
+  background-color: gold;
+}
+
+h2:hover{
+  background-color: gold;
+}
+
+h3:hover{
+  background-color: gold;
 }

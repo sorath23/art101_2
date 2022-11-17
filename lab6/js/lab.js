@@ -7,7 +7,7 @@
 // Define Variables
 var myTransport = ["Ferrari 250 Spyder", "bike", "rides from friends", "Lime Scooter"];
 
-console.log ("My Main Ride:", myMainRide);
+console.log ("my Main Ride:", myMainRide);
 var myMainRide = {
     make : "Ferrari",
     model : "250 Spyder",
@@ -21,5 +21,5 @@ var myMainRide = {
 
 // output
 document.writeln("Kinds of transportation I use: ", myTransport, "</br");
-document.writeln("My Main Ride: <pre>",
+document.writeln("my Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");

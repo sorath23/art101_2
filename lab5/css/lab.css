@@ -2,29 +2,33 @@
   color: black;
 }
 
-#content{
+#content, #car{
   color: white;
-  margin: 20px
+  margin: 50px
   font-style: normal;
   font-size: 25px;
   font-family: sans-serif;
   font-variant: small-caps;
   text-shadow: 1px -1px 0 #ff6699;
-  padding: 20px;
-  background-color: pink;
+  padding: 50px;
   font-weight: bolder;
+  background-color: #DD749A;
+  border-radius: 20px;
 }
 
 img{
   width: 500px;
 }
 
-p.car{
-  float: right;
-  margin-right: 300px;
-  margin-left: 20px;
-  width: 1000px;
+
+
+#car{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed3dcaf3-1a12-49e8-9651-41e95f1dd71d/dfi40m8-57cf30fe-fd98-4025-afcc-6666ab838d43.png/v1/fill/w_1280,h_507,q_80,strp/spyder_by_thighsoks_dfi40m8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvZWQzZGNhZjMtMWExMi00OWU4LTk2NTEtNDFlOTVmMWRkNzFkXC9kZmk0MG04LTU3Y2YzMGZlLWZkOTgtNDAyNS1hZmNjLTY2NjZhYjgzOGQ0My5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.jgntBo8P1W2zBCKPfQodJqNsXL7qSsLReh7WYfeE3oU) ;
+
+
 }
 
 body{
-  background-color: ;
+  background-color: pink;
+  padding: 20px;
+}

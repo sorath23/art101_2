@@ -10,18 +10,32 @@
   padding: 10px;
 }
 
+body{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed3dcaf3-1a12-49e8-9651-41e95f1dd71d/dfhfafg-979990eb-8b53-4a08-bead-ff1056db9b42.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VkM2RjYWYzLTFhMTItNDllOC05NjUxLTQxZTk1ZjFkZDcxZFwvZGZoZmFmZy05Nzk5OTBlYi04YjUzLTRhMDgtYmVhZC1mZjEwNTZkYjliNDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aDo0G5K3SNlrKQIv_2iPzTNRP9thPasvPrREJP095VE);
+}
+
+h1.meet{
+text-decoration: none;
+  margin-right: -100px;
+padding: 40px;
+}
 #contents {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ed3dcaf3-1a12-49e8-9651-41e95f1dd71d/dfhfafg-979990eb-8b53-4a08-bead-ff1056db9b42.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VkM2RjYWYzLTFhMTItNDllOC05NjUxLTQxZTk1ZjFkZDcxZFwvZGZoZmFmZy05Nzk5OTBlYi04YjUzLTRhMDgtYmVhZC1mZjEwNTZkYjliNDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.aDo0G5K3SNlrKQIv_2iPzTNRP9thPasvPrREJP095VE);
-  padding: 200px;
-  margin-top: -150;
+  padding: 10px;
+  margin-top: -180px;
 }
 
+hr{
+  border: 5px solid #204489;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
 h1{
-  background-color: #F0F1F5;
   font-size: 60px;
   text-align: center;
   padding: -100px;
@@ -34,6 +48,10 @@ p{
   align-content: center;
   text-align: center;
   margin-top: 10px;
+}
+
+p.blurb {
+  margin-top: -200px;
 }
 
 .slide-container{
@@ -142,9 +160,87 @@ p{
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .button:hover{
   background: #204489;
+}
+
+
+.FND{
+  border:none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+    background-image: url(https://fightthenewdrug.org/wp-content/uploads/2020/10/FTND_NPN2020_FighterPledge_1x1.gif);
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.FND:hover{
+  background: #204489;
+}
+
+p.style{
+  background-color: none;
+}
+.BFAS{
+  border:none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-image: url(https://bestfriends.org/sites/default/files/basic_images/savethemall-bestfriendsanimalsociety_0.jpg);
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.BFAS:hover{
+  background: #204489;
+}
+
+.MHA{
+  border:none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKliC0jqY8SDme9s8OIowk7mnAB0Zm6fdYA&usqp=CAU);
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.MHA:hover{
+  background: #204489;
+}
+
+.NPR{
+  border:none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-image: url(https://npf-prod.imgix.net/uploads/92e52a0b205e43b28f0fad900144da2e.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5&fp-y=0.5&h=1004&q=80&w=1600);
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.NPR:hover{
+  background: #204489;
+}
+
+#button-slug{
+  text-align: right;
+  padding: 30px;
+  margin-top: -160px;
+}
+
+hr{
+  border-color: none;
 }

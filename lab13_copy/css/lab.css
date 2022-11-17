@@ -32,7 +32,7 @@ body {
 
 }
 
-#output{
+#output-2{
   padding: 40px;
   background-color: #FFD1DA;
   border-radius: 12px;
@@ -53,6 +53,11 @@ th{
   color: #96C75E;
 }
 
-#output.cols{
+#output-2.cols{
   columns: 3;
+}
+
+
+b {
+  color: #F6BD13;
 }

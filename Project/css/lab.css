@@ -244,3 +244,40 @@ p.style{
 hr{
   border-color: none;
 }
+
+
+/*  Rollover image styles  */
+ .figure {
+   position: relative;
+   width: 280px; /* can be omitted for a regular non-lazy image */
+   max-width: 100%;
+   padding: 20px;
+      margin-bottom: -10px;
+ }
+ .figure img.image-hover {
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   object-fit: contain;
+   opacity: 0;
+   padding: 20px;
+   margin-bottom: -10px;
+   transition: opacity .2s;
+ }
+
+ .figure:hover img.image-hover {
+   opacity: 1;
+ }
+
+#icon {
+  padding: 20px;
+}
+ img.image-main {
+   text-align: right;
+ }
+
+ #words {
+   margin-bottom: -200px;
+ }

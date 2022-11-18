@@ -41,6 +41,7 @@ h1{
   padding: -100px;
   text-decoration: underline;
   color: #204489;
+  margin-top: -20px;
 
 }
 
@@ -238,7 +239,7 @@ p.style{
 #button-slug{
   text-align: right;
   padding: 30px;
-  margin-top: -160px;
+  margin-bottom: 200px;
 }
 
 hr{
@@ -271,6 +272,11 @@ hr{
    opacity: 1;
  }
 
+#slider {
+  margin-top: -20px;
+  margin-bottom: -200px;
+}
+
 #icon {
   padding: 20px;
 }
@@ -279,5 +285,5 @@ hr{
  }
 
  #words {
-   margin-bottom: -200px;
+   margin-bottom: -250px;
  }

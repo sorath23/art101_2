@@ -29,13 +29,18 @@ function getComic(num) {
   }
   var ourURL = URLpre + numStr + URLpost;
   console.log("Our new URL:", ourURL);
-  // get data via ajax from numbersapi
-  // Using the core $.ajax() method
+
   $.ajax({
-      // The URL for the request (ENDPOINT)
+
       url: ourURL,
-      // Whether this is a POST or GET request
       type: "GET",
+      dataType : "json",
+      success: function(comicObj) {
+          console.log(comicObj);
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+          console.log("Error:", textStatus, errorThrown);
+      }
   })
   // If the request succeeds
   .done(function(data) {
@@ -58,23 +63,20 @@ function getComic(num) {
           <img src="${imageUrl}" title="${alt}"><br>
           <button id="prev">Previous</button><button id="next">Next</button>
         </div>`
-      // console.log("My new html: \n", html);
+      $("#output").append("<p>" + comicObj.alt + "<p>");
       $("#output").html(html);
 
       // add event listener to new prev button
       $("#prev").click(function(){
         getComic(comicNum - 1);
+        getAndPutData(num);
       });
       // add event listener to new next button
       $("#next").click(function(){
         getComic(comicNum + 1);
+        getAndPutData(num);
       });
   })
-  .fail(function(){
-    console.log("^^ Please ignore this error. It's okay.");
-    console.log("Have a okay day! :-)");
-  })
-
 }
 
 // start things off

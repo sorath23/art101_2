@@ -38,6 +38,7 @@ function getComic(num) {
           console.log("Error:", textStatus, errorThrown);
       }
   })
+
   .done(function(data) {
       var imageUrl = data.img;
       var title = data.title;
@@ -50,20 +51,21 @@ function getComic(num) {
       console.log("safe alt:", alt);
       var comicNum = data.num;
       var html = `<div id="imageblock">
-     <h2>${title}</h2>
-     <img src="${imageUrl}" title="${alt}"><br>
-     <button id="prev">Previous</button><button id="next">Next</button>
+        <h2>${title}</h2>
+        <img src="${imageUrl}" title="${alt}"><br>
+        <button id="prev">Previous</button><button id="next">Next</button>
    </div>`
- // console.log("My new html: \n", html);
+
  $("#output").html(html);
 
- // add event listener to new prev button
  $("#prev").click(function(){
    getComic(comicNum - 1);
+   getComic();
  });
- // add event listener to new next button
+
  $("#next").click(function(){
    getComic(comicNum + 1);
+   getComic();
  });
 })
 }

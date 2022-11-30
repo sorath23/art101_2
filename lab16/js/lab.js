@@ -31,12 +31,6 @@ function getComic(num) {
       url: ourURL,
       type: "GET",
       dataType : "json",
-      success: function(comicObj) {
-          console.log(comicObj);
-      },
-      error: function (jqXHR, textStatus, errorThrown) {
-          console.log("Error:", textStatus, errorThrown);
-      }
   })
 
   .done(function(data) {

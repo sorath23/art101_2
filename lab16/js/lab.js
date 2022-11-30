@@ -47,7 +47,7 @@ function getComic(num) {
       var html = `<div id="imageblock">
         <h2>${title}</h2>
         <img src="${imageUrl}" title="${alt}"><br>
-        <button id="prev">Previous</button><button id="next">Next</button>
+        <button id="prev">Back</button><button id="next">Next</button>
    </div>`
 
  $("#output").html(html);

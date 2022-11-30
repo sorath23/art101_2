@@ -33,22 +33,19 @@
    }
    var ourURL = URLpre + numStr + URLpost;
    console.log("Our new URL:", ourURL);
-
+   // get data via ajax from numbersapi
+   // Using the core $.ajax() method
    $.ajax({
-     url: newUrl,
-     type: "GET",
-     dataType : "json",
-     success: function(comicObj) {
-         console.log(comicObj);
-     },
-     error: function (jqXHR, textStatus, errorThrown) {
-         console.log("Error:", textStatus, errorThrown);
-     }
+       url: ourURL,
+       type: "GET",
    })
-   // If succeed
+   // If the request succeeds
    .done(function(data) {
        // console.log(data);
        var imageUrl = data.img;
+       // we use .replace(/"/g, '\\"') after the text strings because
+       // sometimes there are single and double quotes in the text
+       // that confuses the html
        var title = data.title;
        console.log("orig title:", title);
        title = make_safe(title);
@@ -61,18 +58,21 @@
        var html = `<div id="imageblock">
            <h2>${title}</h2>
            <img src="${imageUrl}" title="${alt}"><br>
-           <button id="prev">Back</button><button id="next">Next</button>
+           <button id="prev">Previous</button><button id="next">Next</button>
          </div>`
-
+       // console.log("My new html: \n", html);
        $("#output").html(html);
 
+       // add event listener to new prev button
        $("#prev").click(function(){
          getComic(comicNum - 1);
        });
+       // add event listener to new next button
        $("#next").click(function(){
          getComic(comicNum + 1);
        });
    })
+ }
 
  // start things off
  getComic();

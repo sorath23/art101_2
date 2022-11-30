@@ -54,7 +54,7 @@ function getComic(num) {
           <h2>${title}</h2>
           <img src="${imageUrl}" title="${alt}"><br>
           <button id="prev">Previous</button><button id="next">Next</button>
-        </div>`
+        </div>
       $("#output").append("<p>" + comicObj.alt + "<p>");
       $("#output").html(html);
 

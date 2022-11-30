@@ -7,6 +7,8 @@
 
 var URL = "https://xkcd.com/info.0.json";
 
+// https://xkcd.com/json.html
+// endpoint https://xkcd.com/456/info.0.json
 var URLpre = "https://xkcd.com/";
 var URLpost = "info.0.json";
 

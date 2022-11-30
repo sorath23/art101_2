@@ -1,5 +1,5 @@
 
-#ajax-button{
+#prev{
     border:none;
     font-size: 16px;
     color: white;
@@ -11,11 +11,31 @@
     font-family: serif;
   }
 
-#ajax-button:hover{
+#prev:hover{
     background: #96C75E;
   }
 
-#ajax-button:click{
+#prev:click{
+    background: black;
+  }
+
+#next{
+    border:none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 11px;
+    background-color: #FFA8BE;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: serif;
+    }
+
+#next:hover{
+    background: #96C75E;
+  }
+
+#next:click{
     background: black;
   }
 
